@@ -1,0 +1,31 @@
+{
+    "particles": {
+        "number": {
+            "value": 50
+        },
+        "size": {
+            "value": 3
+        },
+        "color": {
+            "value": "#414141"
+        },
+        "line_linked": {
+            "color": "#404040"
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            }
+        },
+        "detect_on": "window",
+        "modes": {
+            "repulse": {
+                "distance": 100,
+                "duration": 0.1
+            }
+        }
+    }
+}
