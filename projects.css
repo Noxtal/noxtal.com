@@ -1,0 +1,66 @@
+.wrapper {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    height: 110vh;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #7a4483;
+    width: 60vw;
+}
+
+.big {
+    height: 33vh;
+    background-color: #2e2e2e;
+}
+
+.small {
+    height: 20vh;
+    background-color: #313131;
+}
+
+.project h1 {
+    margin: 0;
+    text-shadow: 0 0 4px #953ca3;
+}
+
+.big h1 {
+    font-size: 4vw;
+}
+
+.small h1 {
+    font-size: 2vw;
+}
+
+.project p {
+    color: #953ca3;
+    margin: 0 10vw 0 10vw;
+}
+
+.project .button {
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: 1vw;
+    margin-top: 2vh;
+    border-radius: 0.5vw;
+}
+
+.button {
+    background-color: #7a4483;
+    color: white;
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: 0.7vw;
+    font-weight: 200;
+    border-radius: 0.4vw;
+}
